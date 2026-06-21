@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Imágenes Limpias</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Imágenes Limpias</h1>
+      <div class="controls">
+        <label for="gallerySelect">Galería</label>
+        <select id="gallerySelect" aria-label="Selecciona galería"></select>
+      </div>
+    </header>
+
+    <main class="carousel-root">
+      <div id="carousel" class="carousel" aria-roledescription="carousel">
+        <button class="nav prev" id="prevBtn" aria-label="Anterior">&#10094;</button>
+        <button class="nav next" id="nextBtn" aria-label="Siguiente">&#10095;</button>
+
+        <div class="slides" id="slides"></div>
+        <div class="indicators" id="indicators" role="tablist"></div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
